@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        *{margin: 0;padding: 0;}
+        ul,ol,li{list-style: none;}
+        a{text-decoration: none; color: inherit;}
+
+        ul.text1
+        {border: 1px solid navy;
+            width: 300px;
+        }
+        ul.text1 li{
+            display: flex;
+            justify-content: space-between;
+        }
+        ul.text1 li a{
+            width: 65%;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        ul.text1 li span{
+        }
+        table{
+            margin-top: 50px;
+            border: 1px saddlebrown solid;
+            border-collapse: collapse;
+            width: 300px;
+            table-layout: fixed;
+        }
+        table td{
+            border: 1px saddlebrown solid;
+        }
+        .t1{
+            width: 80%;
+        }
+        .t1 a{
+            display: block;
+            border: 1px solid darkred;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            
+        }
+    </style>
+</head>
+<body>
+    <ul class="text1">
+        <li>
+            <a href="#">dkfl skl klsfs sfgdg fddsfsfsf fs ddfs s d sfdfsffk</a>
+            <span>12-04</span>
+        </li>
+        <li>
+            <a href="#">dfs fsssssssss dfdg df ff dfs dfsfs df ffdfssssfsf</a>
+            <span>12-01</span> 
+        </li>
+        <li>
+            <a href="#">sfsfsfsf fffsfs d fsfdffgd f dfsdfsfs sfsfsf</a>
+            <span>11-30</span>
+        </li>
+        <li>
+            <a href="#">sfsfsfs adad dasdgfdgf f d fsfsf fsfdadadf</a>
+            <span>11-24</span>
+        </li>
+    </ul>
+
+    <table>
+        <tr>
+            <td class="t1"><a href="#">fsfsf dfsfsdfsfdf s fssssfgdgd sss ssssssf sfsf</a></td>
+            <td>11-21</td>
+        </tr>
+        <tr>
+            <td class="t1"><a href="#">fsfsfs fssfdd  dfsfsf sfgd sssss ssssssf sfsf</a></td>
+            <td>11-19</td>
+        </tr>
+        <tr>
+            <td class="t1"><a href="#">fsfsfs fssssfdf sdfsd sdg sss ssssssf sfsf</a></td>
+            <td>11-11</td>
+        </tr>
+        <tr>
+            <td class="t1"><a href="#">fsfsfs fsfd dsssdf sfg ssssss ssssssf sfsf</a></td>
+            <td>11-10</td>
+        </tr>
+
+    </table>
+</body>
+</html>
